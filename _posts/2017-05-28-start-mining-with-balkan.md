@@ -50,7 +50,7 @@ In the pool mining section, enable pool mining by uncommenting the line:
 
 Configure Balkan Pool
 
-	//host: “pool.domain”, -> host: “eu.nimpool.io:8444
+	//host: “pool.domain”, -> host: “balkanminingpool.com:8444”,
 
 Add your address
 
