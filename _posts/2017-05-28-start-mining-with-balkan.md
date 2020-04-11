@@ -12,6 +12,13 @@ redirect_from:
 
 * Kramdown table of contents
 {:toc .toc}
+# About Balkan Mining Pool
+
+Balkan Mining Pool is a NIMIQ Pool founded in March 2020 by a group of friends in order to support and share knowledge about NIMIQ throughout Balkan countries. 
+
+Minimum payout is 10 NIM and payouts happen automatically every 2 hours.
+
+Current pool fee is 1% and we don't plan on increasing it.
 
 # Create A Nimiq Address
 
