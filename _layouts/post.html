@@ -13,6 +13,7 @@ layout: blog
             </header>
             <div class="bd article-content">
                 <div class="entry-content">
+			<!--
                     <div class="meta">
                         <p class="date-publish">
                             {{ site.data.i18n[site.lang].published }}:
@@ -42,7 +43,8 @@ layout: blog
                             <li class="list-head">{{ site.data.i18n[site.lang].tags }}: </li>
                             {% assign tags_list = page.tags | sort %} {% include helpers/tags_list %}
                         </ul>
-                    </div>
+                    </div> 
+		    -->
                     <div itemprop="articleBody">
                         {{ content }}
                     </div>
@@ -57,12 +59,15 @@ layout: blog
                         {% endif %}
                     </div>
                     <nav class="pagination">
+			    <!--
                         {% if page.previous %}
                             <a class="internal" rel="prev" href="{{ page.previous.url | relative_url }}" title="{{ site.data.i18n[site.lang].previous_post }} '{{ page.previous.title }}'"> ← {{ page.previous.title }}</a>
                         {% endif %}
                         {% if page.next %}
                             <a class="internal" rel="next" href="{{ page.next.url | relative_url }}" title="{{ site.data.i18n[site.lang].next_post }} '{{ page.next.title }}'">{{ page.next.title }} → </a>
                         {% endif %}
+			    -->
+			    <a class="internal" rel="prev" href="{{ site.url }}" title=" Back to Homepage '{{ page.previous.title }}'"> ← Back to Homepage</a>
                     </nav>
                 </div>
             </footer>

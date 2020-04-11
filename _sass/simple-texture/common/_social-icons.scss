@@ -79,4 +79,16 @@ $size: 48;
 
         background-color: #6383A8;
     }
+
+    .ico-telegram {
+        @include get-ico-image(telegram);
+
+        background-color: #0088CC;
+    }
+
+    .ico-nimiq {
+        @include get-ico-image(nimiq);
+
+        background-color: #E9B213;
+    }
 }
