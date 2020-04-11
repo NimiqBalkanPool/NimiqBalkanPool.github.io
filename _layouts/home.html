@@ -4,6 +4,23 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
+
+<script>
+window.onload = function(){
+var users = "";
+var hashrate = "";
+var blocks = "";
+jQuery.get('https://balkanminingpool.com/api/pool/stats', function(result){
+	users = result["clientCounts"]["total"];
+	hashrate = result["averageHashrate"];
+	blocks = result["blocksMined"]["inLast24Hours"];
+        document.getElementById("users").innerHTML = output;
+        document.getElementById("hashrate").innerHTML = output;
+        document.getElementById("blocks").innerHTML = output;
+        })
+}
+</script>
+	
 <html class="no-js" lang="{{ site.lang }}">
 <!--<![endif]-->
 
@@ -33,6 +50,20 @@
         <div class="headings animated fadeInLeft">
             {% if site.home.section1 %}{{ site.home.section1 }}{% endif %}
             {% if site.home.section2 %}{{ site.home.section2 }}{% endif %}
+
+	 <table style="width:60%" align="center">
+  	 <tr>
+    	  <th>Total Users</th>
+    	  <th>Avg Hashrate</th>
+    	  <th>Blocks Mined (24h)</th>
+  	 </tr>
+  	 <tr>
+    	  <td id='users'></td>
+    	  <td id='hashrate'></td>
+    	  <td id='blocks'></td>
+  	 </tr>
+	</table>
+
             {% if site.home.section3 %}{{ site.home.section3 }}{% endif %}
         </div>
         <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>

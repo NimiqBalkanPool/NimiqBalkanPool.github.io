@@ -180,4 +180,18 @@ textarea {
     }
 }
 
+.pool-data {
+//    $icon-size: 64px;
+    a {
+        display: inline-block;
+
+//        width: $icon-size;
+//        height: $icon-size;
+//        margin: 18px;
+
+//        background-size: $icon-size $icon-size;
+    }
+}
+
+
 @import 'simple-texture/home/responsive';
