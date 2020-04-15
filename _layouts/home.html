@@ -17,7 +17,7 @@ jQuery.get('https://balkanminingpool.com/api/pool/stats', function(result){
 	hashrate = obj.averageHashrate;
 	blocks = obj.blocksMined.inLast24Hours;
         document.getElementById("users").innerHTML = users;
-        document.getElementById("hashrate").innerHTML = hashrate/1000000000 + " MHs";
+        document.getElementById("hashrate").innerHTML = hashrate/1000000 + " MHs";
         document.getElementById("blocks").innerHTML = blocks;
         })
 }
