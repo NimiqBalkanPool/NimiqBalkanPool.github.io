@@ -21,7 +21,7 @@ sass:
   style: compressed
 
 # Site Data
-url: https://balkanminingpool.com/ # the base hostname & protocol for your site, e.g. http://example.com
+url: https://balkanminingpool.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Nimiq Balkan Pool
 description: "Nimiq Pool hosted by Nimiq Balkan team."
