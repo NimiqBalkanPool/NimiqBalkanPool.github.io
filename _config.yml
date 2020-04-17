@@ -43,13 +43,13 @@ author:
     - name: stackoverflow
       url:
     - name: twitter
-      url: 
+      url: https://twitter.com/BalkanMining 
     - name: telegram
       url: http://t.me/NimiqBalkan
 home:
   section1: <h1>Nimiq Balkan Pool</h1>
   section2: <h2>Nimiq Pool hosted by Nimiq Balkan team</h2>
-  section3: <div class="social-links"><a class="ico-telegram btn" href="http://t.me/NimiqBalkan" title="Join us on Telegram"></a></div>
+  section3: <div class="social-links"><a class="ico-mining btn" href="https://www.balkanminingpool.com/start-mining-with-balkan/" title="START MINING"></a><a class="ico-twitter btn" href="https://twitter.com/BalkanMining" title="Follow us on Twitter"></a><a class="ico-telegram btn" href="http://t.me/NimiqBalkan" title="Join us on Telegram"></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 

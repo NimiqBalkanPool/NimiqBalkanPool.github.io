@@ -91,4 +91,10 @@ $size: 48;
 
         background-color: #E9B213;
     }
+
+    .ico-mining {
+        @include get-ico-image(mining);
+
+        background-color: #181717;
+    }
 }
