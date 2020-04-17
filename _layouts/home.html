@@ -11,7 +11,7 @@ window.onload = function(){
 var users = "";
 var hashrate = "";
 var blocks = "";
-jQuery.get('https://balkanminingpool.com/api/pool/stats', function(result){
+jQuery.get('https://pool.balkanminingpool.com/api/pool/stats', function(result){
 	obj = JSON.parse(result)
 	users = obj.clientCounts.total;
 	hashrate = obj.averageHashrate/1000000;
