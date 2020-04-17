@@ -18,6 +18,8 @@ Minimum payout is 10 NIM and payouts happen automatically every 2 hours.
 
 Current pool fee is 1% and we don't plan on increasing it.
 
+Pool address: **pool.balkanminingpool.com:8444**
+
 # Create A Nimiq Address
 
 Visit [Nimiq's Wallet](https://safe.nimiq.com) to create an address. Always verify you are visiting https://safe.nimiq.com
@@ -28,7 +30,7 @@ Once you have a Nimiq Address, store it for later.
 
 # Install the Nimiq Miner
 
-- **With CPU**: Download the [community GPU miner](https://github.com/tomkha/nq-miner)
+- **With GPU**: Download the [community GPU miner](https://github.com/tomkha/nq-miner)
 - **Windows Miner**: Try out Nimiq Desktop, a graphical miner built by the community.
 - **Linux Miner and Windows Terminal**: Download the official [Nimiq Miner](https://www.nimiq.com/developers/downloads/).
 
