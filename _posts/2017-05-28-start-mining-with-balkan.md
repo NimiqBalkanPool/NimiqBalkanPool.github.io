@@ -31,7 +31,7 @@ Once you have a Nimiq Address, store it for later.
 # Install the Nimiq Miner
 
 - **With GPU**: Download the [community GPU miner](https://github.com/tomkha/nq-miner)
-- **Windows Miner**: Try out Nimiq Desktop, a graphical miner built by the community.
+- **Windows Miner**: [Try out Nimiq Desktop](https://nimiqdesktop.com/), CPU miner built by the community.
 - **Linux Miner and Windows Terminal**: Download the official [Nimiq Miner](https://www.nimiq.com/developers/downloads/).
 
 # Configure the miner
